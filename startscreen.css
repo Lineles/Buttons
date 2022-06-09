@@ -1,3 +1,30 @@
-h1{
-    background-color: aqua;
-}
+:root {
+    --primary-red-color: #FB1313;
+    --primary-green-color: #00e025;
+   }
+   
+   body {
+     height: 100%;
+     width: 100%;
+     margin: 60px;
+   }
+   
+   header{
+       text-align: center;
+       font-size: xxx-large;
+   }
+   .main-flex{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       row-gap: 16px;
+   }
+   
+   
+   
+   /*** Buttons ***/
+   
+   button{
+     width: 120px;
+   }
